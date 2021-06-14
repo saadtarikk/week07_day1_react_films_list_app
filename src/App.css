@@ -16,11 +16,16 @@ body {
 .film-list {
   /* border: 5px solid; */
   margin: 10 px;
+  
 }
 
 .film {
   /* border: 5px solid; */
   margin: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -32,11 +37,22 @@ a {
   text-decoration: none;
   font-size: small;
   font-style: normal;
-  
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2.5px;
+  width: 140px;
+  height: 45px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+
 }
 a:hover {
   color:white;
   background-color: #444;
+  box-shadow: 0px 15px 20px rgba(68, 63, 67, 0.274);
+  transform: translateY(-7px);
+
+
 }
 
 hr {
